@@ -10,6 +10,7 @@ class Prime
 	if(n==0 || n==1)
 	{
 		System.out.print(n+" neither Prime nor Composite.");
+		temp=-1;
 	}
 	for(i=2;i<=n/2;i++)
 	{
