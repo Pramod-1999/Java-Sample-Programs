@@ -35,31 +35,31 @@ class Calcualtor
 		if(x==1)
 		{
 			int d=addition(n1,n2);
-			System.out.print("The sum of "+n1+" and	"+n2+" is : "+d);
+			System.out.print("The sum is : "+d);
 		}
 
 		else if(x==2)
 		{
 			int d=subtraction(n1,n2);
-			System.out.print("The diffence of "+n1+" and "+n2+" is : "+d);
+			System.out.print("The diffence is : "+d);
 		}
 		
 		else if(x==3)
 		{
 			int d=multiplication(n1,n2);
-			System.out.print("The Product of "+n1+" and "+n2+" is : "+d);
+			System.out.print("The Product is : "+d);
 		}
 
 		else if(x==4)
 		{
 			int d=division(n1,n2);
-			System.out.print("The Quotient of "+n1+" and "+n2+" is : "+d);
+			System.out.print("The Quotient is : "+d);
 		}
 
 		else if(x==5)
 		{
 			int d=modulus(n1,n2);
-			System.out.print("The Reminder of "+n1+" and "+n2+" is : "+d);
+			System.out.print("The Reminder is : "+d);
 		}		
 	
     }
