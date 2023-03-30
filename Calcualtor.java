@@ -20,12 +20,13 @@ class Calcualtor
 	public static int modulus(int a, int b)
 	{
 		return a%b;
-	}		
-                    public static void main(String[] args) 
-                    {
-		 int n1,n2,x;
+	}	
+	
+                     public static void main(String[] args) 
+	{
+		int n1,n2,x;
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter the First Number -");
+		System.out.print("Enter the First Number :- ");
 		n1=sc.nextInt();
 		System.out.print("Enter the Second Number :- "); 
 		n2=sc.nextInt();
@@ -61,6 +62,5 @@ class Calcualtor
 			int d=modulus(n1,n2);
 			System.out.print("The Reminder is : "+d);
 		}		
-	
-    }
+	}
 }
