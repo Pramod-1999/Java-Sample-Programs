@@ -16,7 +16,7 @@ public class QuadraticEquation
 		double c = reader.nextDouble();
 		reader.close();
 		double d = b*b - 4*a*c;
-
+		// d- Discriminant
 		if (d > 0)
 		{
 			double root1 = (-b + Math.pow(d, 0.5))/(2*a);
