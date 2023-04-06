@@ -19,7 +19,7 @@ class NameList
         System.out.print("\nEnter the numbers of names: ");
         int num = reader.nextInt();
         String[] names = new String[num];
-        System.out.print("\nEnter the names -----------");
+        System.out.print("\nEnter the names -");
         for (int i = 0; i < num; i++  )
         {
             System.out.print("\nEnter the name "+(i+1) + ":  ");
@@ -39,7 +39,7 @@ class NameList
             }
         }
         // End of Sorting codes
-        System.out.print("\nSorted names are ---");
+        System.out.print("\nSorted names are -");
         for (int i=0; i<num; i++)
         {
             System.out.print("\n" + names[i]);
