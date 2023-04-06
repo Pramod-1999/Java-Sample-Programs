@@ -3,11 +3,11 @@
 import java.util.*;
 public class CreateAccount
 {
-  public static void main(String[] args)
-  {
-    Account ob = new Account(); //Defaukt Constructor
-    ob.Traverse();
-  }
+    public static void main(String[] args)
+    {
+      Account ob = new Account(); //Defaukt Constructor
+      ob.Traverse();
+    }
 }
 
 class Account
